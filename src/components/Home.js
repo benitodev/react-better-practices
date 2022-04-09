@@ -12,12 +12,12 @@ const Home = () => {
   return (
     <>
       <section className="home">
-        {loader && <h1>LOADING!!!!!</h1>}
         <SearchingGifs />
         <main>
           <div>
             {localStorage.getItem("gif") && <h2>Last wanted</h2>}
             <section className="list-gifs">
+              {loader && <h1>LOADING!!!!!</h1>}
               {!loader && <ListGifs gifs={gif} />}
             </section>
             <ButtonNextPage handleClick={handleClick} />

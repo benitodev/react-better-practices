@@ -14,7 +14,7 @@ const Form = () => {
     <form id="searcher-gifs" onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="search"
+        placeholder="look for the best kittens !"
         className="search"
         name="search"
         onChange={handleChange}

@@ -13,7 +13,7 @@ function App() {
             <Routes>
               <Route index element={<Home />} />
               <Route path="search/:keyword" element={<Gifs />}></Route>
-              <Route path="trending/:title"></Route>
+              <Route path="trending/:keyword" element={<Gifs />}></Route>
               <Route path="*" element={<Error404 />}></Route>
             </Routes>
           </Router>

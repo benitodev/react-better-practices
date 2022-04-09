@@ -11,10 +11,12 @@ const Gifs = () => {
   return (
     <section className="search-pages">
       <Link to="../">
-        <Logo marginTop="20px" />
+        <h1 className="title">Giphy!</h1>
       </Link>
       {loader && <h1>LOADING!!!"!"!"!"!"</h1>}
-      <h1>Search: {keyword}</h1>
+      <h2 className="search-title">
+        Search: <span>{keyword}</span>
+      </h2>
       <section className="list-gifs">
         <ListGifs gifs={gif}></ListGifs>
       </section>
