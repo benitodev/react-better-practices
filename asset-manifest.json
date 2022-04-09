@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-better-practices/static/css/main.1de91f28.css",
+    "main.js": "/react-better-practices/static/js/main.06c1f12c.js",
+    "static/js/321.7974aabd.chunk.js": "/react-better-practices/static/js/321.7974aabd.chunk.js",
+    "static/js/787.2440c5ec.chunk.js": "/react-better-practices/static/js/787.2440c5ec.chunk.js",
+    "index.html": "/react-better-practices/index.html",
+    "main.1de91f28.css.map": "/react-better-practices/static/css/main.1de91f28.css.map",
+    "main.06c1f12c.js.map": "/react-better-practices/static/js/main.06c1f12c.js.map",
+    "321.7974aabd.chunk.js.map": "/react-better-practices/static/js/321.7974aabd.chunk.js.map",
+    "787.2440c5ec.chunk.js.map": "/react-better-practices/static/js/787.2440c5ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1de91f28.css",
+    "static/js/main.06c1f12c.js"
+  ]
+}
